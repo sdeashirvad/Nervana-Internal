@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Nervana — Phase 0 & 1 Plan</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -17,31 +15,31 @@
         }
         .container {
             max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
+            margin: 20px auto;
+            padding: 16px;
         }
         h1, h2, h3 {
             color: #005f73;
             font-weight: 700;
         }
         h1 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 24px;
         }
         h2 {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             border-bottom: 2px solid #e9ecef;
-            padding-bottom: 10px;
-            margin-top: 40px;
+            padding-bottom: 8px;
+            margin-top: 32px;
         }
         h3 {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             color: #0077b6;
         }
         .section {
-            margin-bottom: 30px;
-            padding: 25px;
+            margin-bottom: 24px;
+            padding: 18px;
             background-color: #ffffff;
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.05);
@@ -51,33 +49,38 @@
             font-weight: 600;
         }
         ul {
-            padding-left: 20px;
-            list-style-type: '✓ ';
+            padding-left: 18px;
         }
         li {
             margin-bottom: 8px;
         }
         .timeline {
             background-color: #e9ecef;
-            padding: 15px;
+            padding: 12px;
             border-radius: 8px;
-            margin-top: 15px;
+            margin-top: 10px;
         }
         .timeline p {
-            margin: 0;
+            margin: 4px 0;
             font-weight: 500;
         }
         .summary {
             text-align: center;
-            font-size: 1.2rem;
+            font-size: 1.05rem;
             font-weight: 500;
         }
         .summary .highlight {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 8px 16px;
             background-color: #e0f7fa;
             border-radius: 8px;
             color: #005f73;
+        }
+        .callout {
+            background:#e0f7fa;
+            padding:10px;
+            border-radius:8px;
+            margin-bottom:12px;
         }
     </style>
 </head>
@@ -86,7 +89,7 @@
     <h1>🚀 NERVANA — PHASE 0 & PHASE 1 PLAN</h1>
 
     <div class="section">
-        <h2>🌐 PHASE 0: LANDING + VALIDATION <span style="font-size: 1rem; color: #6c757d;">(Weeks 1–2)</span></h2>
+        <h2>🌐 PHASE 0: LANDING + VALIDATION <span style="font-size: 0.9rem; color: #6c757d;">(Weeks 1–2)</span></h2>
         <p><span class="highlight">Goal:</span> Create an initial presence, validate interest, and start building an early user base.</p>
 
         <h3>Deliverables</h3>
@@ -106,46 +109,93 @@
 
         <h3>✅ Success Criteria</h3>
         <ul>
-            <li>50–200 people express interest.</li>
-            <li>The core messaging resonates with the target audience.</li>
+            <li>50–200 people express interest</li>
+            <li>Messaging resonates with target users</li>
         </ul>
     </div>
 
     <div class="section">
-        <h2>📱 PHASE 1: MVP PRODUCT <span style="font-size: 1rem; color: #6c757d;">(Weeks 3–8)</span></h2>
+        <h2>📱 PHASE 1: MVP PRODUCT <span style="font-size: 0.9rem; color: #6c757d;">(Weeks 3–8)</span></h2>
         <p><span class="highlight">Goal:</span> Build a simple, daily-use product that users come back to.</p>
 
-        <h3>Core Product Experience</h3>
-        <p>A simple loop: <strong>Check-in → Insight → Small Action → Come back tomorrow.</strong></p>
+        <div class="callout">
+            <strong>Key Principle:</strong> We are not building features — we are building a daily habit.
+        </div>
 
-        <h3>Deliverables</h3>
+        <h3>🧠 What the User Experiences (Daily Journey)</h3>
         <ul>
-            <li><strong>Daily Check-in:</strong> Fast and simple (under 1 minute).</li>
-            <li><strong>Insight (Clarity):</strong> A short, personalized output.</li>
-            <li><strong>Daily Action:</strong> One small, doable recommendation.</li>
-            <li><strong>Habit Loop:</strong> A daily streak to encourage consistency.</li>
-            <li><strong>Notifications:</strong> A gentle daily reminder.</li>
+            <li><strong>1. Daily Reminder:</strong> “Take 1 minute to check in with yourself.”</li>
+
+            <li><strong>2. Quick Check-in (30–60 sec):</strong>
+                <ul>
+                    <li>Mood</li>
+                    <li>Energy level</li>
+                    <li>What’s on your mind (optional)</li>
+                </ul>
+            </li>
+
+            <li><strong>3. Instant Insight:</strong><br/>
+                “You seem mentally tired but not emotionally low — likely due to work pressure.”<br/>
+                👉 User feels understood
+            </li>
+
+            <li><strong>4. Small Action:</strong>
+                <ul>
+                    <li>2-min breathing</li>
+                    <li>Write 3 thoughts</li>
+                    <li>10-min focus sprint</li>
+                </ul>
+                👉 Immediate small improvement
+            </li>
+
+            <li><strong>5. Progress Feedback:</strong>
+                <ul>
+                    <li>Daily streak</li>
+                    <li>“You showed up today”</li>
+                </ul>
+                👉 Builds habit consistency
+            </li>
         </ul>
 
-        <h3>❌ What We Will NOT Build (Yet)</h3>
+        <h3>🔁 Core Loop</h3>
+        <p><strong>Check-in → Insight → Action → Feel Better → Return</strong></p>
+
+        <h3>✨ Expected User Feeling</h3>
         <ul>
-            <li>No therapist integrations or marketplaces.</li>
-            <li>No social features or leaderboards.</li>
-            <li>No complex rewards or gamification.</li>
+            <li>This understands me</li>
+            <li>This is easy</li>
+            <li>I feel slightly better</li>
+        </ul>
+
+        <h3>📦 Deliverables</h3>
+        <ul>
+            <li>Daily check-in</li>
+            <li>Insight generation</li>
+            <li>Single daily action</li>
+            <li>Streak system</li>
+            <li>Push notifications</li>
+        </ul>
+
+        <h3>❌ Not Included</h3>
+        <ul>
+            <li>No therapist marketplace</li>
+            <li>No social / leaderboard</li>
+            <li>No complex gamification</li>
+            <li>No heavy AI</li>
         </ul>
 
         <h3>Timeline</h3>
         <div class="timeline">
-            <p><strong>Week 3–4:</strong> Basic app (check-in + insight).</p>
-            <p><strong>Week 5–6:</strong> Add actions and streak tracker.</p>
-            <p><strong>Week 7–8:</strong> Implement notifications and polish the experience.</p>
+            <p><strong>Week 3–4:</strong> Check-in + insight</p>
+            <p><strong>Week 5–6:</strong> Action + streak</p>
+            <p><strong>Week 7–8:</strong> Notifications + polish</p>
         </div>
 
         <h3>📊 Success Criteria</h3>
         <ul>
-            <li>100–300 users try the app.</li>
-            <li>25–35% of users return after one week.</li>
-            <li>Feedback indicates users find it helpful and easy to use.</li>
+            <li>100–300 users try the app</li>
+            <li>25–35% return after 1 week</li>
+            <li>Users feel it is helpful & easy</li>
         </ul>
     </div>
 
@@ -153,7 +203,7 @@
         <h2>🧭 OVERALL STRATEGY</h2>
         <p>Phase 0 → <span class="highlight">Validate Interest</span></p>
         <p>Phase 1 → <span class="highlight">Validate Habit</span></p>
-        <p style="margin-top: 20px;">We are building a simple daily mental clarity tool, proving consistent user return before expanding.</p>
+        <p style="margin-top: 12px;">Focus: Build something users return to daily</p>
     </div>
 
 </div>
